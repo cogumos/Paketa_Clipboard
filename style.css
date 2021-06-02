@@ -108,3 +108,19 @@ section {
     height: 600px;
     background-repeat: no-repeat;
 }
+
+.width_02_100 {
+    width: 100%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.center_section03 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
