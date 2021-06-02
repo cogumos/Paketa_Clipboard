@@ -1,11 +1,14 @@
 body {
-    width: 1440px;
     font-family: 'Bai Jamjuree', sans-serif;
     font-weight: 400px;
     font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 header {
+    width: 1440px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,7 +19,6 @@ header {
 }
 
 .btn_ios {
-    margin-bottom: 120px;
     color: white;
     background-color: hsl(171, 66%, 44%);
     width: 200px;
@@ -32,7 +34,6 @@ header {
 }
 
 .btn_mac {
-    margin-bottom: 120px;
     color: white;
     background-color: hsl(233, 100%, 69%);
     width: 200px;
@@ -50,10 +51,23 @@ header {
     margin-top: 20px;
 }
 
-h1 {
+h1, h2, h3 {
+    color: hsl(210, 10%, 33%);
     font-weight: 600;
+}
+
+h1 {
     font-size: 40px;
-    color: hsl(210, 10%, 33%)
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 27px;
+    margin-bottom: 0px;
+    margin-top: 60px;
 }
 
 p {
@@ -66,6 +80,7 @@ p {
 }
 
 section {
+    width: 1440px;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -73,8 +88,23 @@ section {
 
 #first_section {
     display: flex;
+    margin-top: 70px;
 }
 
 #column_texts {
     flex-direction: column;
+    text-align: left;
+    margin-left: 90px;
+}
+
+.width_100 {
+    width: 100%;
+}
+
+#ctn_img_first_section {
+    width: 50%;
+    background-position-x: right;
+    background-image: url("images/image-computer.png");
+    height: 600px;
+    background-repeat: no-repeat;
 }
