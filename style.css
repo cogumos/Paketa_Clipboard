@@ -1,0 +1,80 @@
+body {
+    width: 1440px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 400px;
+    font-size: 18px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(images/bg-header-desktop.png);
+    background-size: cover;
+    justify-content: center;
+    height: 700px;
+}
+
+.btn_ios {
+    margin-bottom: 120px;
+    color: white;
+    background-color: hsl(171, 66%, 44%);
+    width: 200px;
+    height: 50px;
+    border-radius: 37px;
+    border: none;
+    font-weight: 700px;
+    margin-right: 15px;
+}
+
+.btn_ios:hover {
+    background-color: hsla(171, 66%, 44%, 0.699);
+}
+
+.btn_mac {
+    margin-bottom: 120px;
+    color: white;
+    background-color: hsl(233, 100%, 69%);
+    width: 200px;
+    height: 50px;
+    border-radius: 37px;
+    border: none;
+    font-weight: 700px;
+}
+
+.btn_mac:hover {
+    background-color: hsla(233, 100%, 69%, 0.671);
+}
+
+.container_btn {
+    margin-top: 20px;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 40px;
+    color: hsl(210, 10%, 33%)
+}
+
+p {
+    color: hsl(201, 11%, 66%);
+}
+
+#text_header {
+    width: 620px;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#first_section {
+    display: flex;
+}
+
+#column_texts {
+    flex-direction: column;
+}
