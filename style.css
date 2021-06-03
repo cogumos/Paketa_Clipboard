@@ -83,8 +83,8 @@ section {
     width: 1440px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     text-align: center;
+    align-items: center;
 }
 
 #first_section {
@@ -149,4 +149,11 @@ section {
 
 .size_icon {
     height: 40px;
+}
+
+.container_images_s3 {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin-top: 150px;
 }
