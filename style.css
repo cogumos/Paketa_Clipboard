@@ -23,8 +23,9 @@ header {
     width: 200px;
     height: 50px;
     border-radius: 37px;
-    border: none;
     font-weight: 700px;
+    border: none;
+    border-bottom: 3px solid rgba(18, 87, 72, 0.438);
 }
 
 .btn__ios:hover {
@@ -40,6 +41,7 @@ header {
     border-radius: 37px;
     border: none;
     font-weight: 700px;
+    border-bottom: 3px solid rgba(15, 64, 110, 0.438);
 }
 
 .btn__mac:hover {
