@@ -1,6 +1,5 @@
 body {
     font-family: 'Bai Jamjuree', sans-serif;
-    font-weight: 400px;
     font-size: 18px;
     display: flex;
     flex-direction: column;
@@ -12,13 +11,13 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(images/bg-header-desktop.png);
+    background-image: url("images/bg-header-desktop.png");
     background-size: cover;
     justify-content: center;
     height: 700px;
 }
 
-.btn_ios {
+.btn__ios {
     color: white;
     background-color: hsl(171, 66%, 44%);
     width: 200px;
@@ -28,12 +27,12 @@ header {
     font-weight: 700px;
 }
 
-.btn_ios:hover {
+.btn__ios:hover {
     background-color: hsla(171, 66%, 44%, 0.699);
     cursor: pointer;
 }
 
-.btn_mac {
+.btn__mac {
     color: white;
     background-color: hsl(233, 100%, 69%);
     width: 200px;
@@ -43,12 +42,12 @@ header {
     font-weight: 700px;
 }
 
-.btn_mac:hover {
+.btn__mac:hover {
     background-color: hsla(233, 100%, 69%, 0.671);
     cursor: pointer;
 }
 
-.container_btn {
+.container__btn {
     margin-top: 20px;
 }
 
@@ -75,7 +74,7 @@ p {
     color: hsl(201, 11%, 66%);
 }
 
-#text_header {
+#header__txt {
     width: 620px;
     text-align: center;
 }
@@ -93,17 +92,17 @@ section {
     margin-top: 70px;
 }
 
-#column_texts {
+#section__one__txts {
     flex-direction: column;
     text-align: left;
     margin-left: 90px;
 }
 
-.width_100 {
+.width__100 {
     width: 100%;
 }
 
-#ctn_img_first_section {
+#section__img__background {
     width: 50%;
     background-position-x: right;
     background-image: url("images/image-computer.png");
@@ -111,7 +110,7 @@ section {
     background-repeat: no-repeat;
 }
 
-.width_02_100 {
+.width__100 {
     width: 100%;
 }
 
@@ -133,37 +132,99 @@ section {
     flex-direction: column;
 }
 
-.center_bottom_horizon {
+.container__div {
     display: flex;
     justify-content: center;
 }
 
-#text_mid {
+#text__mid {
     margin-left: 30px;
     margin-right: 30px;
 }
 
-#div_spacing {
+#p__spacing {
     margin: 0px;
     margin-bottom: 70px;
 }
 
-.size_icon {
+.icon__size {
     height: 40px;
 }
 
-.container_images_s3 {
+.container__images {
     display: flex;
     justify-content: space-between;
     width: 1200px;
     margin-top: 150px;
 }
 
-.anchor_buttom {
+.anchor__decoration {
     text-decoration: none;
     display: inline-block;
 }
 
-#first_anchor {
+#btn__margin {
     margin-right: 15px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    width: 1440px;
+    margin-top: 150px;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 150px;
+}
+
+.container__anchor {
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    justify-content: space-between;
+}
+
+.middle {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#footer__logo {
+    width: 50px;
+}
+
+.mt__100 {
+    margin-top: 100px;
+}
+
+.footer__anchor {
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+}
+
+.footer__anchor:hover {
+    color: hsl(171, 66%, 44%);
+}
+
+.footer__icon:hover {
+    color: hsl(171, 66%, 44%);
+}
+
+.footer__icon {
+    color: hsl(210, 10%, 33%);
+    font-size: 20px;
+}
+
+.icon__mid {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.container__icons {
+    width: 300px;
+    justify-content: flex-end;
+    display: flex;
 }
